@@ -1,2 +1,15 @@
 
 /* Your CSS Code here. */
+.holder {
+  /* Establish the flex container */
+  display: flex;
+
+  /* Arrange items in a row (default, but good to be explicit) */
+  flex-direction: row;
+
+  /* Evenly distribute space between/around items */
+  justify-content: space-evenly;
+
+  /* Allow items to move to the next line instead of shrinking/squashing */
+  flex-wrap: wrap;
+}
